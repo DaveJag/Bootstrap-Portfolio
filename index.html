@@ -4,13 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
-  <title>Bootstrap-enabled page</title>
+  <title>Bootstrap-enabled Index page | Dave Jagodowski</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+<!--
+<style type="text/css">
+.showbox {
+	border: 0px solid grey;
+} -->
+
+</style>
+</head>
 <body>
+
+
+<!-- begin responsive grid -->
+<div class="container">
+	<div id="masthead" class="row showbox whiteback"> 
+		<!-- column1 is 2/3rds of row -->
+		<div class="col-xs-12">
+			<a href="index.html" id="logo">David Jagodowski</a>
+
+						<!-- Build NavBar -->
+			<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    			<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed navbar-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="index.html">About &nbsp;</a>
+      					<a class="navbar-brand" href="portfolio.html">Portfolio &nbsp;</a>
+      					<a class="navbar-brand" href="contact.html">Contact</a>
+				    </div>
+  				</div><!-- /.container-fluid -->
+			</nav>
+	
+<!-- End NavBar -->
+		</div>
+
+	</div> <!-- End first row -->
+	
+	<main>
+	<div class="row showbox">
+	
+		<div class="col-xs-12">
+
+			<h2>About Me </h2>
+		</div>
+	</div>
+
+	<div class="row showbox">
+		<div class="col-xs-12">
+			<img class="auth-image" src="./assets/images/DJ_profile04_300px.png" alt="Photo of Dave Jagodowski"> 
+			<p>I am a technical writer and content developer with extensive experience documenting software, hardware, and firmware products in the computer and data-storage industry. I am currently studying web development at UNH so I can expand my career beyond content creation and perhaps improve the way that "documentation" is accessed and delivered in software environments. </p>
+			<p>Beyond my technical career, I am also an adjunct physics professor for several colleges in the Manchester, NH area. I understand that delivering a 3-hr physics lecture after an 8-hr work day may not be everyone's definition of relaxing, but I thoroughly enjoy the interaction with the students and the challenges that the job presents. </p>
+		</div>
+	</div>
+	</main>
+
+	<div class="row showbox">
+		<div class="col-xs-12">
+			<aside class="sidebar">
+					<h2 class="title">Connect with Me</h2>
+					<hr>
+					<p>
+						<a href="#"><img src="assets/images/github_logo.png" class="social" alt="GitHub" /></a>
+						<a href="#"><img src="assets/images/linkedin_logo.png" class="social" alt="LinkedIn" /></a>
+						<a href="#"><img src="assets/images/stackoverflow_logo.png" class="social" alt="StackOverflow" /></a>
+					</p>
+			</aside>
+		</div>
+	</div>
+
+	<div class="row showbox">
+		<div class="col-xs-12">
+		<footer>
+			<p>Copyright 2017 David Jagodowski </p>
+		</footer>
+		</div>
+	</div>
+
+</div>   <!-- end grid -->
 
 </body>
 </html>

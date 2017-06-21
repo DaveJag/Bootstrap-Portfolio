@@ -4,13 +4,95 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
-  <title>Bootstrap-enabled page</title>
+  <title>Bootstrap-enabled Contact page | Dave Jagodowski</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
 <body>
+
+<!-- begin responsive grid -->
+<div class="container">
+<!--	<header id="masthead"> -->
+	<div id="masthead" class="row showbox"> <!-- row 1 -->
+		<!-- column1 is 2/3rds of row -->
+		<div class="col-xs-12">
+			<a href="index.html" id="logo">David Jagodowski</a>
+
+						<!-- Build NavBar -->
+			<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    			<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed navbar-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="index.html">About &nbsp;</a>
+      					<a class="navbar-brand" href="portfolio.html">Portfolio &nbsp;</a>
+      					<a class="navbar-brand" href="contact.html">Contact</a>
+				    </div>
+  				</div><!-- /.container-fluid -->
+			</nav>
+<!-- End NavBar -->
+		</div>
+	</div> <!-- End first row -->
+
+	<!-- Start 2nd row -->
+	<div class="row showbox">
+		<div class="col-xs-8">
+			<div id="main-container" class="container">
+    			<section class="main-section">
+      				<h1>Contact</h1>
+      				<form id="contact-form">
+        			<ul>
+          				<li>
+            				<label for="name">Name</label>
+            				<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          				</li>
+          				<li>
+            				<label for="email">Email</label>
+            				<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          				</li>
+          				<li>
+            				<label for="message">Message</label>
+            				<textarea id="message" name="message" required="required"></textarea>
+          				</li>
+        			</ul>
+        			<input type="submit">
+      				</form>
+   				</section>
+   			</div>	
+   		</div> <!-- end 1st column -->
+
+   		<div class="col-xs-4">  <!-- start 2nd column -->
+   			<section class="sidebar">
+      			<div id="connect">
+        			<h2>Connect with Me</h2>
+        				<a href="#"><img src="assets/images/github_logo.png" class="social" alt="GitHub" /></a>
+        				<a href="#"><img src="assets/images/linkedin_logo.png" class="social" alt="LinkedIn" /></a>
+        				<a href="#"><img src="assets/images/stackoverflow_logo.png" class="social" alt="Stack Overflow" /></a>
+      			</div>
+    		</section>		
+  		</div> <!-- end 2nd column -->		
+	</div> <!-- end 2nd row -->
+
+    <div class="container">
+		<!-- start Footer row -->
+		<div class="row showbox">
+			<div class="col-xs-12">
+				<footer>
+					<p>Copyright &copy; 2017 David Jagodowski </p>
+				</footer>
+			</div>
+		</div>
+	</div>	
+</div>   <!-- end grid -->
 
 </body>
 </html>

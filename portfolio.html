@@ -4,13 +4,103 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
-  <title>Bootstrap-enabled page</title>
+  <title>Bootstrap-enabled Portfolio | Dave Jagodowski</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+
+<style type="text/css">
+
+.showbox {
+	border: 0px solid grey;
+}
+
+</style>
 </head>
 
 <body>
+
+
+<!-- begin responsive grid -->
+<div class="container">
+<!--	<header id="masthead"> -->
+	<div id="masthead" class="row showbox"> <!-- row 1 -->
+		<!-- column1 is 2/3rds of row -->
+		<div class="col-xs-12">
+			<a href="index.html" id="logo">David Jagodowski</a>
+
+						<!-- Build NavBar -->
+			<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    			<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed navbar-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="index.html">About &nbsp;</a>
+      					<a class="navbar-brand" href="portfolio.html">Portfolio &nbsp;</a>
+      					<a class="navbar-brand" href="contact.html">Contact</a>
+				    </div>
+  				</div><!-- /.container-fluid -->
+			</nav>
+<!-- End NavBar -->
+		</div>
+
+	</div> <!-- End first row -->
+
+	<main>
+	<div class="row showbox"> <!-- row 2 -->
+		<!-- column2 is 2/3rds of row -->
+		
+		<div class="col-xs-8">
+			<h1>Portfolio</h1>
+				<div class="work">
+			        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+			        <h3>Hangman</h3>
+			     </div>
+		     	 <div class="work">
+		        	<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+		        	<h3>RPG Game</h3>
+		      	</div>
+		      	<div class="work">
+		        	<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+		        	<h3>Trivia Game</h3>
+		      	</div>
+		      	<div class="work">
+		        	<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+		        	<h3>Rutgers Info Widget</h3>
+		      	</div>
+		      	<div class="work">
+		        	<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+		        	<h3>Rock Paper Scissors</h3>
+		      	</div>
+		</div>
+		<div class="col-xs-4">
+			    <section class="sidebar">
+      				<div id="connect">
+        				<h2>Connect with Me</h2>
+        				<a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        				<a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        				<a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      				</div>
+    			</section>
+		</div>
+	</div> <!-- End 2nd row -->
+	</main>
+
+	<div class="row showbox">  <!-- row 3 -->
+		<div class="col-xs-12">
+		<footer>
+			<p>Copyright 2017 David Jagodowski </p>
+		</footer>
+		</div>
+	</div>
+</div> <!-- end container -->
 
 </body>
 </html>
